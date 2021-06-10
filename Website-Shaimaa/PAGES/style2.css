@@ -263,6 +263,17 @@ color: #690437;
     margin-top: 40px ;
     margin-left: 100px;
 }
+.showCV  {
+    text-align: right;
+    padding: 50px;
+}
+.showCV a {
+    text-decoration: none;
+    color: #440324;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 180px;
+}
 .ar a{
     text-decoration: none;
     color: #550524;
@@ -294,6 +305,22 @@ a:link, a:visited {
 }
 a:hover, a:active {
     background-color: #9ea3e2;
+}
+@media (max-width: 768px) {
+    body {
+        background: #f5c9d1;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    }
+    .en a {
+        margin-left: 190%;
+    }
+    .ar a {
+        margin-left: 190%;
+    }
 }
 
 
